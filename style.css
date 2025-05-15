@@ -99,8 +99,6 @@ main {
   font-size: 14px;
   border-radius: 10px;
 }
-*/
-
 .intro-image .image-placeholder {
   width: 280px;
   height: 280px;
@@ -112,3 +110,12 @@ main {
   font-size: 14px;
   border-radius: 10px;
 }
+*/
+.profile-image {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+

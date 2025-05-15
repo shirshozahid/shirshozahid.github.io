@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #1e1e1e;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+nav a {
+  color: #ccc;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.resume-btn {
+  background-color: #555;
+}
+
+.resume-btn:hover {
+  background-color: #777;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 60px;
+  flex-wrap: wrap;
+}
+
+.intro-text {
+  max-width: 500px;
+}
+
+.intro-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.intro-text p {
+  font-size: 18px;
+  color: #bbb;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #777;
+  padding: 12px 24px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #999;
+}
+
+.intro-image .image-placeholder {
+  width: 280px;
+  height: 280px;
+  background-color: #333;
+  color: #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 10px;
+}
